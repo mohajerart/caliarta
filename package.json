@@ -1,0 +1,51 @@
+{
+  "name": "caliarta",
+  "version": "1.0.0",
+  "description": "Caliarta is a place for Designers who want stay professional.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohajerart/caliarta.git"
+  },
+  "keywords": [
+    "caliarta",
+    "store",
+    "freelance"
+  ],
+  "author": "Mohajer",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mohajerart/caliarta/issues"
+  },
+  "homepage": "https://github.com/mohajerart/caliarta#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.12",
+    "browserify": "^16.5.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
